@@ -1,0 +1,78 @@
+.text-box :nth-child(1) {
+    color: pink
+}
+#greycol {
+    color: grey;
+}
+.text-box :nth-child(5) p {
+    color: red
+}
+.text-box :nth-child(7) {
+    color: green
+}
+.yellow {
+    color: yellow;
+}
+.day-monday {
+    background-color: chocolate;
+    color: yellow;
+}
+.day-monday a:hover {
+    font-size: 20px;
+    color: crimson;
+    background-color: chartreuse;
+}
+.day-monday ol:nth-child(2n) {
+    text-align: center;
+}
+.day-tuesday {
+    background-color: blueviolet;
+    color: rgb(169, 9, 9);
+}
+.day-tuesday a:active {
+    text-transform: uppercase;
+}
+.day-tuesday :first-child {
+    text-transform: uppercase;
+}
+.day-tuesday ol:last-child {
+    color: red;
+    background-color: black;
+    text-transform: lowercase;
+}
+.day-wednesday {
+    background-color: #6da9f7;
+    color: coral;
+}
+.day-wednesday a:focus {
+    color: rgb(89, 208, 156);
+}
+.day-wednesday a:hover {
+    font-style: italic;
+    text-transform: lowercase;
+    color: #ffb2a1;
+}
+.day-wednesday :nth-child(n+3) {
+    color: yellow;
+}
+.day-thursday {
+    background-color: cornflowerblue;
+    color: #00ff48;
+}
+.day-thursday a:visited {
+    color: #ffff30;
+}
+.day-thursday :nth-child(-n+4) {
+    color: burlywood;
+}
+.day-friday {
+    background-color: #ffb2a1;
+    color: chartreuse;
+}
+.day-friday :not(h2) {
+    font-size: 20px;
+}
+.day-friday ol :nth-child(even) {
+    font-style: italic;
+    color: bisque;
+}
